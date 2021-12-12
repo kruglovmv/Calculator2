@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textMarginFromLeftAndRight">10dp</dimen>
+    <dimen name="textMarginFromTop">10dp</dimen>
+    <dimen name="marginButton">8dp</dimen>
+    <dimen name="textHeight">200dp</dimen>
+    <dimen name="buttonHeight">60dp</dimen>
+</resources>
