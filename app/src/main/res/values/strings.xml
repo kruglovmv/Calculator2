@@ -2,7 +2,7 @@
     <string name="app_name">Calculator</string>
     <string name="hintEditText">Начните ввод!</string>
     <string name="equalsChar">=</string>
-    <string name="comaChar">,</string>
+    <string name="comaChar">.</string>
     <string name="zeroChar">0</string>
     <string name="multChar">*</string>
     <string name="nineChar">9</string>
@@ -17,6 +17,8 @@
     <string name="sixChar">6</string>
     <string name="divChar">/</string>
     <string name="minusChar">-</string>
-    <string name="squareChar">^2</string>
+    <string name="expChar">^</string>
     <string name="clearChar">CA</string>
+    <string name="leftBracketChar">(</string>
+    <string name="rightBracketButton">)</string>
 </resources>
