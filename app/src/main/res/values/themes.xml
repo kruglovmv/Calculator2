@@ -12,5 +12,17 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/light_background</item>
+    </style>
+    <style name="TextViewStyle" parent="Theme.Calculator">
+        <item name="android:layout_margin">@dimen/text_margin_from_left_and_right</item>
+        <item name="android:layout_marginTop">@dimen/text_margin_from_top</item>
+        <item name="android:background">@drawable/light_background</item>
+        <item name="android:backgroundTintMode">screen</item>
+        <item name="android:gravity">end</item>
+        <item name="android:hint">@string/hint_edit_text</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_button</item>
     </style>
 </resources>

@@ -1,24 +1,24 @@
 <resources>
     <string name="app_name">Calculator</string>
-    <string name="hintEditText">Начните ввод!</string>
-    <string name="equalsChar">=</string>
-    <string name="comaChar">.</string>
-    <string name="zeroChar">0</string>
-    <string name="multChar">*</string>
-    <string name="nineChar">9</string>
-    <string name="threeChar">3</string>
-    <string name="twoChar">2</string>
-    <string name="oneChar">1</string>
-    <string name="sevenChar">7</string>
-    <string name="eightChar">8</string>
-    <string name="plusChar">+</string>
-    <string name="fourChar">4</string>
-    <string name="fiveChar">5</string>
-    <string name="sixChar">6</string>
-    <string name="divChar">/</string>
-    <string name="minusChar">-</string>
-    <string name="expChar">^</string>
-    <string name="clearChar">CA</string>
-    <string name="leftBracketChar">(</string>
-    <string name="rightBracketButton">)</string>
+    <string name="hint_edit_text">Начните ввод!</string>
+    <string name="equals_char">=</string>
+    <string name="coma_char">.</string>
+    <string name="zero_char">0</string>
+    <string name="mult_char">*</string>
+    <string name="nine_char">9</string>
+    <string name="three_char">3</string>
+    <string name="two_char">2</string>
+    <string name="one_char">1</string>
+    <string name="seven_char">7</string>
+    <string name="eight_char">8</string>
+    <string name="plus_char">+</string>
+    <string name="four_char">4</string>
+    <string name="five_char">5</string>
+    <string name="six_char">6</string>
+    <string name="div_char">/</string>
+    <string name="minus_char">-</string>
+    <string name="exp_char">^</string>
+    <string name="clear_char">CA</string>
+    <string name="left_bracket_char">(</string>
+    <string name="right_bracket_char">)</string>
 </resources>

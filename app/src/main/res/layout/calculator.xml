@@ -3,61 +3,49 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dark_background"
-    android:textColor="@color/white"
     android:layout_centerHorizontal="true">
 
     <TextView
-        android:id="@+id/editTextNumber"
+        android:id="@+id/edit_text_number"
         android:layout_width="match_parent"
-        android:layout_weight="1"
         android:layout_height="0dp"
-        android:layout_margin="@dimen/textMarginFromLeftAndRight"
-        android:layout_marginTop="@dimen/textMarginFromTop"
-        android:background="@drawable/dark_background"
-        android:backgroundTintMode="screen"
-        android:gravity="end"
-        android:textColor="@color/white"
-        android:textSize="@dimen/textSIzeEditText"
-        android:hint="@string/hintEditText"
-        android:textColorHint="@color/white" />
+        android:layout_weight="1"
+        style="@style/TextViewStyle"/>
+<!--        android:layout_margin="@dimen/text_margin_from_left_and_right"-->
+<!--        android:layout_marginTop="@dimen/text_margin_from_top"-->
+
+<!--        android:background="@drawable/light_background"-->
+<!--        android:backgroundTintMode="screen"-->
+<!--        android:gravity="end"-->
+<!--        android:hint="@string/hint_edit_text"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textColorHint="@color/white"-->
+<!--        android:textSize="@dimen/text_size_edit_text" />-->
+
 
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/clearButton"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:text="@string/clearChar"
-            android:backgroundTint="@color/caButtonColor"/>
+            android:id="@+id/clear_button"
+            style="@style/NumberButtonStyle.CAButton"
+            android:text="@string/clear_char" />
+
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/leftBracketButton"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:backgroundTint="@color/operationButtonColor"
-            android:text="@string/leftBracketChar" />
+            android:id="@+id/left_bracket_button"
+            style="@style/NumberButtonStyle.OperationButton"
+            android:text="@string/left_bracket_char" />
+
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/rightBracketButton"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:backgroundTint="@color/operationButtonColor"
-            android:text="@string/rightBracketButton" />
+            android:id="@+id/right_bracket_button"
+            style="@style/NumberButtonStyle.OperationButton"
+            android:text="@string/right_bracket_char" />
+
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/minusButton"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:backgroundTint="@color/operationButtonColor"
-            android:text="@string/minusChar" />
+            android:id="@+id/minus_button"
+            style="@style/NumberButtonStyle.OperationButton"
+            android:text="@string/minus_char" />
 
 
     </TableRow>
@@ -67,37 +55,24 @@
         android:layout_height="match_parent">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/sevenButton"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:text="@string/sevenChar" />
+            android:id="@+id/seven_button"
+            style="@style/NumberButtonStyle"
+            android:text="@string/seven_char" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/eightButton"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:text="@string/eightChar" />
+            android:id="@+id/eight_button"
+            style="@style/NumberButtonStyle"
+            android:text="@string/eight_char" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/nineButton"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:text="@string/nineChar" />
+            android:id="@+id/nine_button"
+            style="@style/NumberButtonStyle"
+            android:text="@string/nine_char" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/plusButton"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:backgroundTint="@color/operationButtonColor"
-            android:text="@string/plusChar" />
+            android:id="@+id/plus_button"
+            style="@style/NumberButtonStyle.OperationButton"
+            android:text="@string/plus_char" />
     </TableRow>
 
     <TableRow
@@ -105,37 +80,24 @@
         android:layout_height="match_parent">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/fourButton"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:text="@string/fourChar" />
+            android:id="@+id/four_button"
+            style="@style/NumberButtonStyle"
+            android:text="@string/four_char" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/fiveButton"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:text="@string/fiveChar" />
+            android:id="@+id/five_button"
+            style="@style/NumberButtonStyle"
+            android:text="@string/five_char" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/sixButton"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:text="@string/sixChar" />
+            android:id="@+id/six_button"
+            style="@style/NumberButtonStyle"
+            android:text="@string/six_char" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/divButton"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:backgroundTint="@color/operationButtonColor"
-            android:text="@string/divChar" />
+            android:id="@+id/div_button"
+            style="@style/NumberButtonStyle.OperationButton"
+            android:text="@string/div_char" />
     </TableRow>
 
     <TableRow
@@ -143,37 +105,24 @@
         android:layout_height="match_parent">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/oneButton"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:text="@string/oneChar" />
+            android:id="@+id/one_button"
+            style="@style/NumberButtonStyle"
+            android:text="@string/one_char" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/twoButton"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:text="@string/twoChar" />
+            android:id="@+id/two_button"
+            style="@style/NumberButtonStyle"
+            android:text="@string/two_char" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/threeButton"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:text="@string/threeChar" />
+            android:id="@+id/three_button"
+            style="@style/NumberButtonStyle"
+            android:text="@string/three_char" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/multButton"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:backgroundTint="@color/operationButtonColor"
-            android:text="@string/multChar" />
+            android:id="@+id/mult_button"
+            style="@style/NumberButtonStyle.OperationButton"
+            android:text="@string/mult_char" />
     </TableRow>
 
     <TableRow
@@ -181,37 +130,23 @@
         android:layout_height="match_parent">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/buttonZero"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:text="@string/zeroChar" />
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/expButton"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:backgroundTint="@color/operationButtonColor"
-            android:text="@string/expChar"/>
+            android:id="@+id/button_zero"
+            style="@style/NumberButtonStyle"
+            android:text="@string/zero_char" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/buttonComa"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:backgroundTint="@color/operationButtonColor"
-            android:text="@string/comaChar" />
+            android:id="@+id/exp_button"
+            style="@style/NumberButtonStyle.OperationButton"
+            android:text="@string/exp_char" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/buttonEquals"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/buttonHeight"
-            android:layout_margin="@dimen/marginButton"
-            android:textSize="@dimen/textSIzeButton"
-            android:backgroundTint="@color/operationButtonColor"
-            android:text="@string/equalsChar" />
+            android:id="@+id/button_coma"
+            style="@style/NumberButtonStyle.OperationButton"
+            android:text="@string/coma_char" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_equals"
+            style="@style/NumberButtonStyle.OperationButton"
+            android:text="@string/equals_char" />
     </TableRow>
 </TableLayout>

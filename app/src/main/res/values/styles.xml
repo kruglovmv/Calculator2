@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NumberButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_margin">@dimen/margin_button</item>
+        <item name="android:textSize">@dimen/text_size_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">@dimen/corner_radius_button</item>
+
+    </style>
+
+    <style name="NumberButtonStyle.OperationButton">
+        <item name="backgroundTint">@color/operation_button_color</item>
+    </style>
+
+    <style name="NumberButtonStyle.CAButton">
+        <item name="backgroundTint">@color/ca_button_color</item>
+    </style>
+
+</resources>

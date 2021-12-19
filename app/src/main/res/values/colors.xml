@@ -8,6 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#FF6F00</color>
-    <color name="operationButtonColor">#525457</color>
-    <color name="caButtonColor">#880E4F</color>
+    <color name="operation_button_color">#525457</color>
+    <color name="ca_button_color">#880E4F</color>
 </resources>
