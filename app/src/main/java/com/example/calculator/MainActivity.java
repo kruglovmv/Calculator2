@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity{
         private TextView textEdit;
         private static final String TEXT_STATE = "TEXT_STATE";
         static {
-            setDefaultNightMode(MODE_NIGHT_AUTO_BATTERY);
+            setDefaultNightMode(MODE_NIGHT_NO);
         }
 
         @Override
