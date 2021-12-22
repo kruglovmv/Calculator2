@@ -10,10 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculator">
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.RUN" />
+
+                <category android:name="android.intent.category.APP_CALCULATOR" />
             </intent-filter>
         </activity>
     </application>
