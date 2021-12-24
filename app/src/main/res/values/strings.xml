@@ -21,4 +21,6 @@
     <string name="clear_char">CA</string>
     <string name="left_bracket_char">(</string>
     <string name="right_bracket_char">)</string>
+    <string name="text_switch_theme">Включение ночной темы</string>
+    <string name="text_button_start">Start</string>
 </resources>

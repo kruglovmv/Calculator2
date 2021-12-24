@@ -19,9 +19,6 @@ import static androidx.appcompat.app.AppCompatDelegate.*;
 public class MainActivity extends AppCompatActivity{
         private TextView textEdit;
         private static final String TEXT_STATE = "TEXT_STATE";
-        static {
-            setDefaultNightMode(MODE_NIGHT_NO);
-        }
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
